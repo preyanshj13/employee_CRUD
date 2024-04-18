@@ -11,7 +11,7 @@ export default function ViewEmp() {
     // axios.get('http://localhost:3000/employee').then(res => setData(res.data))
     useEffect(() => {
         axios
-            .get('http://localhost:3000/employee')
+            .get('https://my-json-server.typicode.com/preyanshj13/employee_CRUD/db')
             .then((res) => {
                 // console.log(res.data);
                 setData(res.data);
