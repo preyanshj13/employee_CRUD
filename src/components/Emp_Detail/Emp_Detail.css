@@ -1,0 +1,70 @@
+.empName {
+    text-align: center;
+    margin-top: 3%;
+}
+
+/* .data {
+    display: flex;
+} */
+
+.data1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.empImg {
+    width: 200px;
+}
+
+h5 {
+    margin-bottom: 10%;
+}
+
+/* .row1, .row2 {
+    margin-bottom: 40pt;
+    line-height: 20pt;
+} */
+
+/* .infoCol1 {
+    margin-left: 5%;
+}
+
+.infoCol2 {
+    padding: 0 auto;
+    margin: 0 auto;
+} */
+
+.editButton {
+    text-align: center;
+}
+
+.btnEdit {
+    border: 0;
+    background-color:white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.btnEdit:hover {
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgba(52, 6, 238, 70%);
+}
+
+.editForm{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.editDetails {
+    visibility: hidden;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* transition-duration: 10s; */
+}
+
+.edit {
+    justify-content: center;
+}
